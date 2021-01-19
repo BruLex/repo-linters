@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "eslint",
+  "title": "Add eslint configuration to project",
+  "type": "object",
+  "properties": {
+    "project": {
+      "description": "The name of the project to add ESLint to.",
+      "type": "string",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    }
+  }
+}

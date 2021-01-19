@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "configure-linters": {
+      "description": "Add linters configuration to project",
+      "factory": "./configure-linters/index#configureLinters",
+      "schema": "./configure-linters/schema.json"
+    }
+  }
+}

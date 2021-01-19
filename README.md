@@ -1,41 +1,23 @@
 # Angular linters configuration
-Repo with configured linter for TS like projects with TS + HTML + SCSS for Angular
-Intall steps:
+Repo with schematic that configure Angular linter for TS/HTML/SCSS
 
-### Just copy next files to your project:
+Install steps:
 
-.eslintignore
-.eslintrc.json
-.prettierrc.json
-.stylelintrc.json
-
-### Install required dependencies:
-
-* @angular-eslint/eslint-plugin
-* @typescript-eslint/eslint-plugin
-* @typescript-eslint/eslint-plugin-tslint
-* @typescript-eslint/parser
-* codelyzer
-* eslint
-* eslint-config-prettier
-* eslint-import-resolver-alias
-* eslint-import-resolver-typescript
-* eslint-plugin-ban
-* eslint-plugin-import
-* eslint-plugin-jasmine
-* eslint-plugin-prettier
-* eslint-plugin-rxjs
-* prettier
-* rxjs-tslint-rules
-* stylelint
-* stylelint-config-prettier
-* stylelint-config-standard
-* stylelint-order
-* stylelint-prettier
-* stylelint-scss
-* tslint
-
-One command for npm:
 ```
-npm install @angular-eslint/eslint-plugin @typescript-eslint/eslint-plugin @typescript-eslint/eslint-plugin-tslint @typescript-eslint/parser codelyzer eslint eslint-config-prettier eslint-import-resolver-alias eslint-import-resolver-typescript eslint-plugin-ban eslint-plugin-import eslint-plugin-jasmine eslint-plugin-prettier eslint-plugin-rxjs prettier rxjs-tslint-rules stylelint stylelint-config-prettier stylelint-config-standard stylelint-order stylelint-prettier stylelint-scss tslint
+npm install angular-brulex-lint
 ```
+
+# Getting Started With Schematics
+
+This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+
+### Publishing
+
+To publish, simply do:
+
+```bash
+npm run build
+npm publish
+```
+
+That's it!
