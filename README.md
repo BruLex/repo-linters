@@ -7,17 +7,4 @@ Install steps:
 npm install angular-brulex-lint
 ```
 
-# Getting Started With Schematics
-
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
-
-That's it!
+### TODO install generation step
