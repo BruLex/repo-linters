@@ -1,6 +1,6 @@
 {
     "name": "angular-brulex-lint",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Schematic to configure angular env with linter by Brulex",
     "scripts": {
         "build": "tsc -p tsconfig.json",
@@ -9,7 +9,11 @@
     "keywords": [
         "schematics"
     ],
-    "author": "",
+    "repository": "brulex/angular-brulex-lint",
+    "bugs": {
+        "url": "https://github.com/brulex/angular-brulex-lint/issues"
+    },
+    "author": "brulex",
     "license": "MIT",
     "schematics": "./src/collection.json",
     "ng-add": {
